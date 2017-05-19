@@ -10,7 +10,7 @@ Código Hexadecimal gris footer: #3B3B3B
 	font-family: 'Raleway'
 	font-size: 16px;
 }
-/* Sección Bienvenida*/
+/* Sección Bienvenida */
 #bienvenida {
 	background: url('../img/fondo-bienvenida.jpg');
 	background-size: cover;
@@ -26,12 +26,12 @@ Código Hexadecimal gris footer: #3B3B3B
 .mensaje{
 	text-align: center;
 }
-/* Secciones fonde de color*/
+/* Secciones fonde de color */
 .color {
 	background-color: #8EC641;
 }
 
-/*Newsletter*/
+/* Newsletter */
 .newsletter{
 	text-aling: center;
 	padding: 50px;
@@ -46,4 +46,25 @@ Código Hexadecimal gris footer: #3B3B3B
 	font-size: 1.5em;
 	font-weight: bolder;
 	cursor: pointer;
+}
+/* Sección about */
+#about{
+	background: url('../img/fondo-about.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+
+.contenido{
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	padding: 30px 30px 100px 30px;
+}
+
+.contenido h1{
+	font-weight: bolder;
+	font-size: 5rem;
+	line-height: 5rem;
+	text-tranform: uppercase;
 }
